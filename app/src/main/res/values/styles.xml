@@ -14,4 +14,16 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ToolBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:background">@color/colorDarkBlue</item>
+        <item name="android:statusBarColor">@color/colorDarkBlue</item>
+    </style>
+
+    <style name="ImageButton" parent="AppTheme">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
 </resources>

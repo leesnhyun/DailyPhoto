@@ -3,11 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Activity.MainActivity">
 
     <include
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         layout="@layout/toolbar_top_menu" />
+
+    <FrameLayout
+        android:id="@+id/fragmentHolder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
 </LinearLayout>

@@ -5,10 +5,10 @@
     android:id="@+id/toolbar_top_menu"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:theme="@style/ToolBar"
-    android:weightSum="0">
+    android:weightSum="0"
+    style="@style/ToolBar">
 
-        <LinearLayout
+    <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -65,5 +65,12 @@
                 style="@style/ImageButton"/>
 
         </LinearLayout>
+
+    <Spinner
+        android:id="@+id/spinner_btn_grid"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown" />
 
 </android.support.v7.widget.Toolbar>

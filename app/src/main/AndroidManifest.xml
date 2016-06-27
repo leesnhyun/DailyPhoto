@@ -21,6 +21,7 @@
         </activity>
 
         <activity android:name=".Activity.MainActivity" android:theme="@style/NoActionBar"/>
+        <activity android:name=".Activity.AlarmActivity" android:theme="@style/NoActionBar"/>
 
     </application>
 

@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         // attachActions
         setActionOnBtnCamera();
+        setActionOnBtnClock();
         setActionOnDropDownSpinner();
 
     }
@@ -106,6 +107,15 @@ public class MainActivity extends AppCompatActivity {
                 fileUri = getOutputMediaFileUri();
                 i.putExtra(MediaStore.EXTRA_OUTPUT, fileUri);
                 startActivityForResult(i, TAKE_CAMERA);
+            }
+        });
+    }
+    private void setActionOnBtnClock(){
+        imgButtons[2].setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(MainActivity.this, AlarmActivity.class);
+                startActivity(i);
             }
         });
     }

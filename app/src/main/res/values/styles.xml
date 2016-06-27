@@ -15,8 +15,15 @@
     </style>
 
     <style name="ToolBar" parent="AppTheme">
-        <item name="windowActionBar">false</item>
+        <item name="windowActionBar">true</item>
         <item name="windowNoTitle">true</item>
+        <item name="android:background">@color/colorDarkBlue</item>
+        <item name="android:statusBarColor">@color/colorDarkBlue</item>
+    </style>
+
+    <style name="SubToolBar" parent="ToolBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">false</item>
         <item name="android:background">@color/colorDarkBlue</item>
         <item name="android:statusBarColor">@color/colorDarkBlue</item>
     </style>
